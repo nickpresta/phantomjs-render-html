@@ -2,6 +2,9 @@
 
 Render HTML using PhantomJS into a PDF/GIF/JPEG/PNG.
 
+Heavily based on [rasterize.js](https://github.com/ariya/phantomjs/blob/master/examples/rasterize.js), but with
+support for named command line arguments, and content from STDIN (and output to STDOUT).
+
 ## How to use
 
 1. Install PhantomJS (tested with 1.9.2). See: [http://phantomjs.org](http://phantomjs.org/)

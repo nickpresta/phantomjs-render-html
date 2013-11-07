@@ -13,6 +13,7 @@ usage = ->
   Argument types:
     url: local (file:///foobar.html), internet (http://google.com)
     paper: 5in*7.5in, 10cm*20cm, A4, Letter
+    format: pdf, png, gif, jpeg
     output: out.pdf, out.png, /dev/stdout
     stdin: a file or string (standard unix redirection)'''
   phantom.exit 1
